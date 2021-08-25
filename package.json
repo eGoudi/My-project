@@ -1,0 +1,15 @@
+{
+  "name": "trusk-interviewee-test-automation-project",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "cypress": "^8.3.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

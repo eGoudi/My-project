@@ -1,0 +1,30 @@
+<!--suppress ALL -->
+<html>
+    <head>
+        <title>QA @ Trusk</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1 id="hello">👋 Hello Trusk!</h1>
+        <p id="guess">Identifiants corrects: adrian@trusk.com / adrian@trusk.com</p>
+        <form id="test-form">
+            <fieldset id="email-fieldset">
+                <label id="email-label">📨 Adresse e-mail</label>
+                <input autocomplete="username" id="email-input" placeholder="adrian@trusk.com" type="text" />
+                <span class="error" id="email-error"></span>
+            </fieldset>
+            <fieldset id="password-fieldset">
+                <label id="password-label">🔑 Mot de passe</label>
+                <input autocomplete="current-password" id="password-input" placeholder="********" type="password" />
+                <span class="error" id="password-error"></span>
+            </fieldset>
+            <fieldset id="submit-fieldset">
+                <span class="error" id="form-error"></span>
+                <button id="submit" type="submit">Suivant</button>
+            </fieldset>
+        </form>
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+html, body {
+    left: 0;
+    margin: 0 auto;
+    padding: 8px;
+    top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+fieldset {
+    border: none;
+    margin-top: 8px;
+    padding: 0;
+    width: 300px;
+}
+
+label {
+    display: block;
+    font-style: italic;
+}
+
+input {
+    background-color: beige;
+    border: none;
+    color: #0530FF;
+    font-size: large;
+    height: 50px;
+    outline: none;
+    padding: 8px;
+    width: 284px;
+}
+
+input.error {
+    border: 1px red solid;
+}
+
+span.error {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    background-color: #0530FF;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+    height: 50px;
+    outline: none;
+    padding: 8px;
+    text-transform: uppercase;
+    width: 284px;
+}
+
+button.disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
